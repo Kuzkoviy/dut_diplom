@@ -70,6 +70,7 @@ const RegisterPage = ({ close }) => {
         <input
           {...register('phone', { required: true })}
           type="number"
+          autocomplete="new-password"
           className={errors.phone ? 'form-input input-error' : 'form-input'}
         />
       </div>
