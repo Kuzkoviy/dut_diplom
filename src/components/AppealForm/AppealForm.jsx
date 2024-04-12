@@ -69,7 +69,7 @@ const RegisterPage = ({ close }) => {
         </div>
         <input
           {...register('phone', { required: true })}
-          type="text"
+          type="number"
           className={errors.phone ? 'form-input input-error' : 'form-input'}
         />
       </div>
