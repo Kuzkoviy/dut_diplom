@@ -71,6 +71,8 @@ const RegisterPage = ({ close }) => {
           {...register('phone', { required: true })}
           type="number"
           autocomplete="new-password"
+          placeholder='+380953032100'
+          max={12}
           className={errors.phone ? 'form-input input-error' : 'form-input'}
         />
       </div>
