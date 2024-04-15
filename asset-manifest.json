@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/dut_diplom/static/css/main.15ff5e99.css",
-    "main.js": "/dut_diplom/static/js/main.cc17a6cf.js",
-    "static/js/57.53b5ee9f.chunk.js": "/dut_diplom/static/js/57.53b5ee9f.chunk.js",
+    "main.js": "/dut_diplom/static/js/main.122fceb4.js",
+    "static/js/57.7eac62b4.chunk.js": "/dut_diplom/static/js/57.7eac62b4.chunk.js",
     "static/js/980.15ea1578.chunk.js": "/dut_diplom/static/js/980.15ea1578.chunk.js",
     "static/js/134.492e72bf.chunk.js": "/dut_diplom/static/js/134.492e72bf.chunk.js",
     "static/js/508.c3afd1f1.chunk.js": "/dut_diplom/static/js/508.c3afd1f1.chunk.js",
     "static/media/logo.png": "/dut_diplom/static/media/logo.32c19765d2c13b748243.png",
     "index.html": "/dut_diplom/index.html",
     "main.15ff5e99.css.map": "/dut_diplom/static/css/main.15ff5e99.css.map",
-    "main.cc17a6cf.js.map": "/dut_diplom/static/js/main.cc17a6cf.js.map",
-    "57.53b5ee9f.chunk.js.map": "/dut_diplom/static/js/57.53b5ee9f.chunk.js.map",
+    "main.122fceb4.js.map": "/dut_diplom/static/js/main.122fceb4.js.map",
+    "57.7eac62b4.chunk.js.map": "/dut_diplom/static/js/57.7eac62b4.chunk.js.map",
     "980.15ea1578.chunk.js.map": "/dut_diplom/static/js/980.15ea1578.chunk.js.map",
     "134.492e72bf.chunk.js.map": "/dut_diplom/static/js/134.492e72bf.chunk.js.map",
     "508.c3afd1f1.chunk.js.map": "/dut_diplom/static/js/508.c3afd1f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15ff5e99.css",
-    "static/js/main.cc17a6cf.js"
+    "static/js/main.122fceb4.js"
   ]
 }
