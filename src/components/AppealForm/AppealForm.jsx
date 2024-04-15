@@ -8,6 +8,7 @@ import { courses, faculties, groupsByFacultyAndCourse } from './universityData';
 const RegisterPage = ({ close }) => {
   const dispatch = useDispatch();
   const [selectedFaculty, setSelectedFaculty] = useState(null);
+  const [inputValue, setInputValue] = useState('');
   const {
     register,
     handleSubmit,
@@ -15,6 +16,13 @@ const RegisterPage = ({ close }) => {
     watch,
     formState: { errors },
   } = useForm();
+
+
+  const handleInputChange = event => {
+    const { value } = event.target;
+    const filteredValue = value.replace(/[^0-9+-]/g, '');
+    setInputValue(filteredValue);
+  };
 
   const handleFacultyChange = e => {
     const faculty = e.target.value;
@@ -69,10 +77,12 @@ const RegisterPage = ({ close }) => {
         </div>
         <input
           {...register('phone', { required: true })}
-          type="number"
-          autocomplete="new-password"
-          placeholder='+380953032100'
-          max={12}
+          type="text"
+          value={inputValue}
+          onChange={handleInputChange}
+          autocomplete="off"
+          placeholder="+380953032100"
+          maxLength={12}
           className={errors.phone ? 'form-input input-error' : 'form-input'}
         />
       </div>
